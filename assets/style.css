@@ -1,0 +1,121 @@
+*{
+     font-family: 'Roboto', sans-serif;
+     color: #333333;
+     text-align: justify;
+}
+body{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin:0;
+}
+.container{
+     display: block;
+     height: 100%;
+     width:96vw;
+     background-color: #EEEEEE;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     margin-left: 20px;
+     margin-right: 20px;
+     border-radius: 10px;
+}
+.headline{
+     font-size: 23px;
+     font-weight: bold;
+     padding-top: 30px;
+}
+.headline h1{
+     text-align: center;
+}
+.headline p{
+     font-size: 16px;
+     text-align: center;
+     font-weight: normal;
+}
+.figure-area{
+     display: flex;
+}
+figure{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     align-items: center;
+     font-size: 13px;
+    
+    
+}
+img{
+     width: 650px;
+     
+}
+.figure-area{
+
+     flex: 1;
+     background-color: white;
+     justify-content: center;
+     align-content: center;
+     margin: 20px;
+}
+.container-text{
+     display: flex;
+     width: 100%;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+   
+}
+.bio{
+     flex-wrap: nowrap;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+.list{
+     width: 60%;
+     padding: 10px;
+}
+.list li{
+     padding: 10px;
+}  
+.disc{
+     list-style-type:none;
+}
+.sub-h3{
+     width: 40vw;
+     margin-bottom: 20px;
+}
+.rodape{
+     display: flex;
+     width: 100%;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-top: 30px; 
+     font-size: 12px;
+}
+.rodape a{
+     text-decoration: none;
+}
+.rodape a:hover{
+     color: #000000;
+     text-decoration:underline;
+}
+.roda2{
+     display: flex;
+     color:#333333;
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+}
+.ft{
+     margin-right: 20px;
+     justify-content: center;
+     align-content: center;
+}
+img{
+     margin: 30px;
+}
+.ico{
+     width: auto;
+}
